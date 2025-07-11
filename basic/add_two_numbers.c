@@ -12,7 +12,7 @@ int main(){
   scanf("%i", &second_num);
   answer = first_num + second_num;
   printf("The answer is %f.\n", answer);
-  return 0;
+return 0;
 }
 
 
