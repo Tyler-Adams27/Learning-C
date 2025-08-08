@@ -1,4 +1,4 @@
-#include <raylib.h>
+#include "raylib/src/raylib.h"
 
 int player_x = 200;
 int player_y = 200;
