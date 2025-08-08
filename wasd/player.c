@@ -1,9 +1,9 @@
 #include "raylib/src/raylib.h"
 
-int player_x = 200;
+int player_x = 300;
 int player_y = 200;
 
-void Move(){
+void player_move(){
     if(IsKeyDown(KEY_D)){
         player_x += 5;
     }
@@ -18,7 +18,7 @@ void Move(){
     }
 }
 
-int checkBorderY(int y, int height){
+int check_border_y(int y, int height){
     float border_bottom = height;
 
     if(y >= border_bottom){
@@ -32,7 +32,7 @@ int checkBorderY(int y, int height){
 
 }
 
-int checkBorderX(int x, int width){
+int check_border_x(int x, int width){
     float border_bottom = width;
 
     if(x >= border_bottom){

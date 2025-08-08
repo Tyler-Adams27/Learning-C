@@ -7,7 +7,7 @@ int orb_x = 0;
 int spawn_orb(){
 
     int spawn_location = rand()%4;
-    printf("Random direction is %i\n", spawn_location);
+   // printf("Random direction is %i\n", spawn_location); ---> This Is Debugging For The Randomization Of Spawn Points.
     return spawn_location;
 }
 
